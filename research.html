@@ -119,41 +119,51 @@
           </header>
           <section class="page__content" itemprop="text">
 
-            <!-- AI for Chips -->
-            <h2 id="AI-for-Chips" style="color: red;"><strong>AI for Chips</strong></h2>
-             <div style="display: flex; align-items: flex-start; gap: 20px;">
-             <div style="width: 600px;">
-              <img src="/images/people/r1.jpg" alt="AI for Chips" style="width: 100%; height: auto;">
-              </div>
-              <div class="publications-box">
-                <p>
-                  We focus on advancing artificial intelligence applications in semiconductor manufacturing,
-                  specifically through the development and optimization of AI algorithms for integrated circuits.
-                  Our research encompasses a broad spectrum of innovative methodologies, including machine learning
-                  models and big data analytics to enhance photolithography processes and near-field optical proximity
-                  correction, boost device yield and performance, integration of AI with 2D material IC design and
-                  manufacturing techniques. We have significantly broadened the scope of AI in chip fabrication,
-                  culminating in the creation of a pioneering, enterprise-level intelligent manufacturing system
-                  that leverages AI for enhanced perceptual and big data capabilities.
-                </p>
-              </div>
-            </div>
+          ```html
+        <!-- AI for Chips -->
+        <h2 id="AI-for-Chips" style="color: red;"><strong>AI for Chips</strong></h2>
+         <div style="display: flex; align-items: flex-start; gap: 20px;">
+        <!-- 左侧图片容器，宽度占父容器 50% -->
+         <div style="flex: 0 0 50%; max-width: 50%;">
+          <img src="/images/people/r1.jpg"
+           alt="AI for Chips"
+            style="width: 100%; height: auto; object-fit: cover;">
+         </div>
+        <!-- 右侧文字容器，自适应剩余空间 -->
+        <div class="publications-box" style="flex: 1;">
+       <p>
+      We focus on advancing artificial intelligence applications in semiconductor manufacturing,
+      specifically through the development and optimization of AI algorithms for integrated circuits.
+      Our research encompasses a broad spectrum of innovative methodologies, including machine learning
+      models and big data analytics to enhance photolithography processes and near-field optical proximity
+      correction, boost device yield and performance, integration of AI with 2D material IC design and
+      manufacturing techniques. We have significantly broadened the scope of AI in chip fabrication,
+      culminating in the creation of a pioneering, enterprise-level intelligent manufacturing system
+      that leverages AI for enhanced perceptual and big data capabilities.
+    </p>
+     </div>
+     </div>
 
-            <!-- AI for Optics -->
-            <h2 id="AI-for-Optics" style="color: red; margin-top: 2em;"><strong>AI for Optics</strong></h2>
-            <div style="display: flex; align-items: flex-start; gap: 20px;">
-              <div style="width: 500px;">
-                <img src="/images/people/r3.png" alt="AI for Optics" style="width: 100%; height: auto;">
-              </div>
-              <div class="publications-box">
-                <p>
-                  We are also exploring the integration of artificial intelligence with optical technologies to revolutionize the
-                  field of optics, including the development of AI algorithms for distributed optical sensors, sensitivity and accuracy
-                  enhancement across extensive networks, leveraging the principles of light-based computing to improve the speed and
-                  efficiency of neural processing, enabling clearer and more detailed observations at the microscopic level.
-                </p>
-              </div>
-            </div>
+    <!-- AI for Optics -->
+     <h2 id="AI-for-Optics" style="color: red; margin-top: 2em;"><strong>AI for Optics</strong></h2>
+    <div style="display: flex; align-items: flex-start; gap: 20px;">
+     <!-- 左侧图片容器，宽度占父容器 50% -->
+      <div style="flex: 0 0 50%; max-width: 50%;">
+       <img src="/images/people/r3.png"
+         alt="AI for Optics"
+         style="width: 100%; height: auto; object-fit: cover;">
+      </div>
+      <!-- 右侧文字容器，自适应剩余空间 -->
+     <div class="publications-box" style="flex: 1;">
+       <p>
+      We are also exploring the integration of artificial intelligence with optical technologies to revolutionize the
+      field of optics, including the development of AI algorithms for distributed optical sensors, sensitivity and accuracy
+      enhancement across extensive networks, leveraging the principles of light-based computing to improve the speed and
+      efficiency of neural processing, enabling clearer and more detailed observations at the microscopic level.
+       </p>
+     </div>
+   </div>
+    ```
 
             <!-- Projects -->
             <div class="publications-box" style="margin-top: 2em;">
